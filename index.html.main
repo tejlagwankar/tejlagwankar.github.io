@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Tejas's site</title>
+<link rel="stylesheet" href="/style.css"> 
+</head>
+
+<body>
+	<h1>Hello peeps!</h1>
+	<p>This website belongs to Tejas Lagwankar.</p>
+
+
+
+
+	<p>Website currently under construction.</p>
+
+	<footer>
+		<img src="tomjerry.gif" target="_blank" alt="working">
+	</footer>
+
+</body>
+
+
+</html> 
+
+
