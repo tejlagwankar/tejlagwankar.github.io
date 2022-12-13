@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+
+h1, h2 {
+	color: #F9FAF8;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+img {
+	width: 400px;
+}
+
+.hero {
+	background-color: #1F2937;
+}
+	
+.intro-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 60%;
+	margin: auto;
+}
+
+.intro-section .main-section {
+	margin: 64px auto;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.main-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-logo {
+	flex: 1;
+	text-align: flex-start;
+}
+
+.header-links {
+	flex: -1;
+	text-align: right;
+	padding-left: 24px;
+}
+
+.intro-section .text {
+	display: flex;
+    flex: 1;
+	flex-direction: column;
+	text-align: flex-start;
+}
+
+/* .subtext {
+    width: 600px;
+} */
+
+.intro-section .image {
+	justify-content: center;
+}
