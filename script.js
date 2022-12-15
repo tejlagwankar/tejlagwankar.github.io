@@ -49,17 +49,17 @@
 */
 
 // Edit below this line =============
-const birthYear = 1999;
-const thisYear = 2022;
-const firstName = "Tejas";
-const lastName = "Lagwankar";
-const fullName = "Teajs Lagwankwr";
-const age = 23;
+// const birthYear = 1999;
+// const thisYear = 2022;
+// const firstName = "Tejas";
+// const lastName = "Lagwankar";
+// const fullName = "Teajs Lagwankwr";
+// const age = 23;
 
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+// const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 // const greeting = "Hello, my Name is " + fullName + " and I am age is " + age + " years."
 
-console.log(greeting);
+// console.log(greeting);
 
 
 
@@ -83,13 +83,47 @@ console.log(greeting);
 
 // Step 3: (Be sure to comment out Step 2)
 
-module.exports = {
-	testGroup: "b",
-	greeting,
-	birthYear,
-	thisYear,
-	firstName,
-	lastName,
-	fullName,
-	age
+// module.exports = {
+// 	testGroup: "b",
+// 	greeting,
+// 	birthYear,
+// 	thisYear,
+// 	firstName,
+// 	lastName,
+// 	fullName,
+// 	age
+// }
+
+// function showMessage(from,text="Default") {
+// 	console.log(from + ": " + text);
+// }
+// // showMessage("Tejsa","Get ew");
+// showMessage("sh9io","hih ihi")
+
+// function capital(x) {
+// 	return x[0].toUpperCase() + x.slice(1).toLowerCase();
+// }
+// console.log(capital("IOHIO"));
+
+// function lastLetter(y) {
+// 	return y[y.length - 1];
+// 	// return ;
+// }
+// console.log(lastLetter("sdgkgafgiu"));
+
+for (let i = 0; i < 31; i++) {
+	// if (i%3==0) {
+	// 	console.log("Fizz");
+	// }
+	if (i%3 == 0) {
+		console.log("Fizz");
+	} else if (i%5 == 0) {
+		console.log("Buzz");
+	}
+	else if (i%3 == 0 & i%5 == 0) {
+		console.log("FizzBuzz");
+	}
+	else {
+		console.log(i);
+	}
 }
